@@ -1,0 +1,8 @@
+<h2>You have the items:</h2>
+<% for (i = 0; i < items.length; i++) { %>
+	<hr>
+	Item Name: <label><%= items[i].name %></label><br/>
+	Item Price: <label><%= items[i].price %></label>
+<% } %>
+<hr>
+<a href='/add-item'>Add</a> more items
